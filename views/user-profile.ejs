@@ -94,8 +94,8 @@
           </div>
           <br><br>
           <div class="average-score">
+            <% if (attempts) { %>
             <label class="score"><%= attempts.avg_score %></label>
-            <% if (quizzes.length > 0) { %>
             <h3 class="avg">Average Score</h3>
             <% } %>
           </div>
