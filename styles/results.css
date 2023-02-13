@@ -156,9 +156,37 @@ p {
 .results-page {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  margin: 50px;
-  padding-top: 20px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.card-quiz-result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 50px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 65%;
+}
+
+.card-quiz-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+  background-color: #fff;
+  width: 30%;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 h2 {
@@ -166,34 +194,27 @@ h2 {
   padding: 0px;
 }
 
-.score-portion {
+.score {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 35px 30px;
-  font-size: 100px;
+  width: 100%;
+  background-color: #cad2c5;
+  border-radius: 4px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.score-number {
+  font-size: 130px;
+  font-weight: 700;
   font-family: "Shrikhand";
 }
 
-.score-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.card-quiz {
-  margin: 25px;
-  width: 600px;
-}
-
-.score-card-body {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  width: 500px;
-  border-radius: 4px;
-  margin: 25px;
+.result-img {
+  height: 350px;
+  width: 350px;
+  margin-right: 30px;
 }
 
 .card-title {
