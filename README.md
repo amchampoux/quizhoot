@@ -16,7 +16,21 @@ Built as a midterm project for Lighthouse Labs. QUIZHOOT is an app that lets you
 
 ## Final Product
 
-(include screenshots/video here)
+**Home**
+
+!["Screenshot of home"](https://github.com/amchampoux/quizhoot/blob/master/public/docs/screenshots/home.png)
+
+**Create a quiz**
+
+!["Screenshot of quiz"](https://github.com/amchampoux/quizhoot/blob/master/public/docs/screenshots/form.gif)
+
+**User profile**
+
+!["Screenshot of profile"](https://github.com/amchampoux/quizhoot/blob/master/public/docs/screenshots/profile.png)
+
+**Complete a quiz and result page**
+
+!["Screenshot of quiz + result"](https://github.com/amchampoux/quizhoot/blob/master/public/docs/screenshots/quiz.gif)
 
 
 
